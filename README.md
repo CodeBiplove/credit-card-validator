@@ -54,10 +54,10 @@ cd credit-card-validator
 
 ### 3. Compile the Code
 
-To compile the code, use a C compiler such as `gcc`:
+To compile the code:
 
 ```bash
-gcc -o credit_card_validator credit.c -lcs50
+make credit
 ```
 
 ### 4. Run the Program
@@ -65,7 +65,7 @@ gcc -o credit_card_validator credit.c -lcs50
 Run the compiled program:
 
 ```bash
-./credit_card_validator
+./credit
 ```
 
 You will be prompted to enter a credit card number. The program will then display the card type or "INVALID" if the card number is not valid.
